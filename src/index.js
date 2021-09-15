@@ -7,10 +7,10 @@ const port = 3000;
 
 /* ruta principal: */
 app.use('/', (req, res) => {
-  res.send('<h1>Hola desde nodejs!</h1>');
+  res.send('<h1>Hola desde nodejs!!!</h1>');
 });
 
 /* servidor escucha: */
 app.listen(port, () => {
-  console.log(`Servidor escuchando por el puerto ${3000}!!!`);
+  console.log(`Servidor escuchando por el puerto ${3000}`);
 });
