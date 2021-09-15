@@ -1,0 +1,17 @@
+{
+  "name": "gestor-de-proyectos",
+  "version": "1.0.0",
+  "description": "Aplicacion de gestor de proyectos con arquitectura MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "Danlois Tovar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
